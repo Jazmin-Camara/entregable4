@@ -1,0 +1,76 @@
+.App {
+  display: flex;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    height: 100vh;
+    position: relative;
+}
+
+.usersForm {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 0px 20px;
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  width: 40%;
+  background-color: lightpink;
+}
+
+input { 
+  width: 100%;
+  height: 30px;
+  background-color: whitesmoke;
+}
+
+.create{
+  width: 80%;
+  height: 40px;
+  background-color: gold;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 15px;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.usersList {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 60%;
+  background: rgb(194,69,158);
+  background: linear-gradient(90deg, rgba(194,69,158,1) 0%, rgba(255,0,164,1) 100%);
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 30px;
+  
+}
+
+.users-list {
+  background-color: rgba(253, 251, 251, 0.632);
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.remove {
+  width: 80%;
+  height: 40px;
+  background-color: gold;
+  font-weight: bold;
+  font-size: 25px;
+  border-radius: 15px;
+}
